@@ -720,3 +720,54 @@ span {
         opacity: .6;
     }
 }
+
+@media (max-width: 520px){
+    html {
+        font-size: 50%;
+    }
+    .home-content h1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-sci {
+        width: 160px;
+    }
+    .home-sci a {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media (max-width: 462px) {
+    .home-content h1 {
+        font-size: 5.2rem;
+    }
+    .education {
+        padding: 10rem 4% 5rem 5%;
+    }
+    .contact form .input-box .input-field {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer p {
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 371px) {
+    .home {
+        justify-content: center;
+    }
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+    }
+}
